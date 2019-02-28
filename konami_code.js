@@ -27,9 +27,6 @@ function init() {
       konamiCode.push(key);
       konamiIndex++;
       console.log(konamiCode);
-      if(konamiCode === codes){
-        console.log('Code Achieved');
-      }
       }
     else{
       konamiIndex = 0;
