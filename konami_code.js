@@ -23,6 +23,7 @@ function init() {
       console.log('We Are HITTIN');
       konamiCode.push(key);
       konamiIndex++;
+      console.log(konamiCode);
       }
     else{
       konamiIndex = 0;
