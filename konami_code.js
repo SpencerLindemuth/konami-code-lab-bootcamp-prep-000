@@ -24,7 +24,7 @@ function init() {
       konamiCode.push(key);
       konamiIndex++;
       }
-    else if(key !== codes[konamiIndex]){
+    else{
       konamiIndex = 0;
       konamiCode = [];
     }
