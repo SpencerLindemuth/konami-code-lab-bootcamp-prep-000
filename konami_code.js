@@ -21,6 +21,7 @@ function init() {
     key = e.key;
     if(key === 'a' && key === codes[konamiIndex]){
       console.log('FINALLY')
+      alert("Hurray!");
     }
     else if(key === codes[konamiIndex]){
       console.log('We Are HITTIN');
