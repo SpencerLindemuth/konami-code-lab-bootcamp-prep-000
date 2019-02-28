@@ -21,7 +21,6 @@ function init() {
     if(key === 'ArrowUp'){
       konamiIndex.push(key);
       }
-    }
   });
 
 
