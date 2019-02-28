@@ -20,9 +20,6 @@ function init() {
     key = e.key;
     if(key === 'ArrowUp'){
       konamiIndex.push(key)
-      body.addEventListener('keydown', function(e)){
-        console.log(e.key);
-        console.log('We are hittin');
       }
     }
   });
