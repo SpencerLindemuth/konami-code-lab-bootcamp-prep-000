@@ -24,13 +24,13 @@ function init() {
       konamiCode.push(key);
       konamiIndex++;
       }
-    /*else if(key !=== codes[konamiIndex]){
+    else if(key !== codes[konamiIndex]){
       konamiIndex = 0;
       konamiCode = [];
     }
     if(konamiCode === codes){
       console.log('Code Achieved!')
-    }*/
+    }
   });
 
 
