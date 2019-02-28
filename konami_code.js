@@ -19,7 +19,7 @@ function init() {
     console.log(e.key);
     key = e.key;
     if(key === 'ArrowUp'){
-      konamiIndex.push(key)
+      konamiIndex.push(key);
       }
     }
   });
