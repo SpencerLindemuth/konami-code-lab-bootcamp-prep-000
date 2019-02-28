@@ -17,7 +17,7 @@ function init() {
   body.addEventListener('keydown', function(e) {
     console.log(e.key);
     key = e.key;
-    if(key === 'ArrowUp'){
+    if(key === 'ArrowUp' || key === 'a'){
       alert("ArrowUp Pressed!");
     }
   });
