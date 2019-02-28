@@ -18,7 +18,7 @@ function init() {
     console.log(e.key);
     key = e.key;
     if(key === 'ArrowUp'){
-      alert("ArrowUp Pressed!")
+      alert("ArrowUp Pressed!");
     }
   });
 
