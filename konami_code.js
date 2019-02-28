@@ -13,7 +13,7 @@ const codes = [
 function init() {
   // your code here
   const body = document.querySelector('body');
-   
+
   body.addEventListener('keydown', function(e) {
     console.log(e.key);
   });
