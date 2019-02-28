@@ -10,13 +10,12 @@ const codes = [
   "b",
   "a"
 ];
-/*function init() {
+function init() {
   // your code here
-  const body = document.querySelector('body')
-  body.addEventListener('keydown', onKeyDownHandler(e))
-  console.log('e')
+  const body = document.querySelector('body');
+   
+  body.addEventListener('keydown', function(e) {
+    console.log(e.key);
+  });
+
 }
-
-function onKeyDownHandler(e){
-
-}*/
