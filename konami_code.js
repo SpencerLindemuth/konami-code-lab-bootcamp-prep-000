@@ -28,12 +28,11 @@ function init() {
       konamiIndex = 0;
       konamiCode = [];
     }
-    if(konamiCode === codes){
-      console.log('Code Achieved!')
-    }
   });
 
-
+if(konamiCode === codes){
+  console.log('Code Achieved!')
+};
 
 
 }
