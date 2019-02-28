@@ -19,7 +19,10 @@ function init() {
   body.addEventListener('keydown', function(e) {
     console.log(e.key);
     key = e.key;
-    if(key === codes[konamiIndex]){
+    if(key === 'a' && key === codes[konamiIndex]){
+      console.log('FINALLY')
+    }
+    else if(key === codes[konamiIndex]){
       console.log('We Are HITTIN');
       konamiCode.push(key);
       konamiIndex++;
