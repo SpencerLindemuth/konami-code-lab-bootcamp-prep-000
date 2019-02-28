@@ -13,13 +13,17 @@ const codes = [
 function init() {
   // your code here
   const body = document.querySelector('body');
+  konamiIndex = [];
 
   body.addEventListener('keydown', function(e) {
     console.log(e.key);
     key = e.key;
-    if(key === 'ArrowUp' || key === 'a'){
-      alert('ArrowUp Pressed!');
-      console.log('We are hittin');
+    if(key === 'ArrowUp'){
+      konamiIndex.push(key)
+      body.addEventListener('keydown', function(e)){
+        console.log(e.key);
+        console.log('We are hittin');
+      }
     }
   });
 
