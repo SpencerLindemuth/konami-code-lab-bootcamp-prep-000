@@ -13,8 +13,8 @@ const codes = [
 function init() {
   // your code here
   const body = document.querySelector('body');
-  konamiCode = [];
-  konamiIndex = 0;
+  var konamiCode = [];
+  var konamiIndex = 0;
 
   body.addEventListener('keydown', function(e) {
     console.log(e.key);
